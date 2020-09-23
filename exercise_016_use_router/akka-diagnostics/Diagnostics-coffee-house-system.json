@@ -1,0 +1,249 @@
+{
+  "start-time" : "2020-09-23T12:05:53.470",
+  "akka-version" : "2.6.3",
+  "akka-diagnostics-version" : "1.1.12",
+  "classpath" : "/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/job-5/target/e37c8b3d/78adb384/exercises_2.13-1.3.0.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/d9c0a472/535315bc/common_2.13-1.3.0.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/eaae34ab/f7a642d3/scala-library-2.13.1.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/8e4bc052/6a160af9/akka-actor_2.13-2.6.3.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/f2f160ef/f76fd74c/akka-slf4j_2.13-2.6.3.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/c40b9155/97705cb7/logback-classic-1.2.3.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/14914cf8/de51ef4b/scala-parser-combinators_2.13-1.1.2.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/bbe7fbc9/3a662b3b/akka-diagnostics_2.13-1.1.12.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/44657d9f/d61eec9d/cinnamon-akka_2.13-2.13.1.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/4a7ed87f/acf6eb39/cinnamon-jvm-metrics-producer-2.13.1.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/63b7cb4b/cb939429/cinnamon-prometheus-2.13.1.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/a0989133/c9866030/cinnamon-prometheus-httpserver-2.13.1.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/086a2248/65a4d7a3/config-1.4.0.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/418f272e/cb34b137/scala-java8-compat_2.13-0.9.0.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/6326dd5a/9f4f0e8c/slf4j-api-1.7.30.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/cc64b926/8d05bad2/logback-core-1.2.3.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/696e3519/066b4db5/commons-lang3-3.5.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/7dda2d0d/66b22663/cinnamon-java-2.13.1.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/b7a5b909/ef2d75a7/cinnamon-scala_2.13-2.13.1.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/3622e1de/13510806/cinnamon-core-java-2.13.1.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/dc0ec680/c140e4ce/simpleclient-0.8.0.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/cb9f0cce/14d77992/HdrHistogram-2.1.12.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/b94f132d/1b96c5e6/simpleclient_httpserver-0.8.0.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/675c22e7/d41b67d1/cinnamon-core_2.13-2.13.1.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/1cfc9e13/12e79a06/cinnamon-common-2.13.1.jar:/C:/Users/mtselikina/AppData/Local/Temp/sbt_43cf4934/target/ed9ea58c/9f77b5f0/simpleclient_common-0.8.0.jar:/C:/Users/mtselikina/AppData/Local/Coursier/cache/v1/https/repo.lightbend.com/pass/cW7W46EuBMGYr-H2u3mb8gSR8PflQaHcp5zBa2SZqC5TYKv6/commercial-releases/com/lightbend/cinnamon/cinnamon-agent/2.13.1/cinnamon-agent-2.13.1.jar",
+  "configuration-warnings" : [],
+  "system-metrics" : {
+    "heap-init" : 266338304,
+    "heap-max" : 3760193536,
+    "heap-used" : 71804320,
+    "heap-committed" : 268435456,
+    "os-processors" : 8,
+    "mem-pool-0" : {
+      "name" : "Code Cache",
+      "type" : "Non-heap memory",
+      "init" : 2555904,
+      "max" : 251658240,
+      "used" : 9747328,
+      "committed" : 9830400
+    },
+    "mem-pool-1" : {
+      "name" : "Metaspace",
+      "type" : "Non-heap memory",
+      "init" : 0,
+      "max" : -1,
+      "used" : 28241248,
+      "committed" : 30277632
+    },
+    "mem-pool-2" : {
+      "name" : "Compressed Class Space",
+      "type" : "Non-heap memory",
+      "init" : 0,
+      "max" : 1073741824,
+      "used" : 3724216,
+      "committed" : 4063232
+    },
+    "mem-pool-3" : {
+      "name" : "PS Eden Space",
+      "type" : "Heap memory",
+      "init" : 66584576,
+      "max" : 1379926016,
+      "used" : 55921312,
+      "committed" : 141033472
+    },
+    "mem-pool-4" : {
+      "name" : "PS Survivor Space",
+      "type" : "Heap memory",
+      "init" : 11010048,
+      "max" : 15204352,
+      "used" : 8094032,
+      "committed" : 15204352
+    },
+    "mem-pool-5" : {
+      "name" : "PS Old Gen",
+      "type" : "Heap memory",
+      "init" : 177733632,
+      "max" : 2820145152,
+      "used" : 10020536,
+      "committed" : 112197632
+    }
+  },
+  "configuration" : {
+    "akka" : {
+        "actor" : {
+            "debug" : {
+                "lifecycle" : "on",
+                "unhandled" : "on"
+            },
+            "deployment" : {
+                "/coffee-house/barista" : {
+                    "nr-of-instances" : 4,
+                    "router" : "round-robin-pool"
+                }
+            }
+        },
+        "loggers" : [
+            "akka.event.slf4j.Slf4jLogger"
+        ],
+        "logging-filter" : "akka.event.slf4j.Slf4jLoggingFilter",
+        "loglevel" : "DEBUG",
+        "version" : "2.6.3"
+    },
+    "awt" : {
+        "toolkit" : "sun.awt.windows.WToolkit"
+    },
+    "cinnamon" : {
+        "akka" : {
+            "actors" : {
+                "/user/*" : {
+                    "report-by" : "class"
+                }
+            },
+            "dispatchers" : {
+                "basic-information" : {
+                    "names" : [
+                        "*"
+                    ]
+                },
+                "time-information" : {
+                    "names" : [
+                        "*"
+                    ]
+                }
+            }
+        },
+        "prometheus" : {
+            "exporters" : [
+                "http-server"
+            ],
+            "http-server" : {
+                "host" : "0.0.0.0",
+                "port" : 9001
+            }
+        }
+    },
+    "coffee-house" : {
+        "barista" : {
+            "accuracy" : 100,
+            "prepare-coffee-duration" : "2 seconds"
+        },
+        "caffeine-limit" : 1000,
+        "guest" : {
+            "finish-coffee-duration" : "2 seconds"
+        },
+        "waiter" : {
+            "max-complaint-count" : 5
+        }
+    },
+    "excluded-sensitive-paths" : [
+        "user.home",
+        "user.dir",
+        "user.name"
+    ],
+    "file" : {
+        "encoding" : {
+            "pkg" : "sun.io"
+        },
+        "separator" : "\\"
+    },
+    "java" : {
+        "awt" : {
+            "graphicsenv" : "sun.awt.Win32GraphicsEnvironment",
+            "printerjob" : "sun.awt.windows.WPrinterJob"
+        },
+        "class" : {
+            "path" : "C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\job-5\\target\\e37c8b3d\\78adb384\\exercises_2.13-1.3.0.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\d9c0a472\\535315bc\\common_2.13-1.3.0.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\eaae34ab\\f7a642d3\\scala-library-2.13.1.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\8e4bc052\\6a160af9\\akka-actor_2.13-2.6.3.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\f2f160ef\\f76fd74c\\akka-slf4j_2.13-2.6.3.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\c40b9155\\97705cb7\\logback-classic-1.2.3.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\14914cf8\\de51ef4b\\scala-parser-combinators_2.13-1.1.2.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\bbe7fbc9\\3a662b3b\\akka-diagnostics_2.13-1.1.12.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\44657d9f\\d61eec9d\\cinnamon-akka_2.13-2.13.1.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\4a7ed87f\\acf6eb39\\cinnamon-jvm-metrics-producer-2.13.1.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\63b7cb4b\\cb939429\\cinnamon-prometheus-2.13.1.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\a0989133\\c9866030\\cinnamon-prometheus-httpserver-2.13.1.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\086a2248\\65a4d7a3\\config-1.4.0.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\418f272e\\cb34b137\\scala-java8-compat_2.13-0.9.0.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\6326dd5a\\9f4f0e8c\\slf4j-api-1.7.30.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\cc64b926\\8d05bad2\\logback-core-1.2.3.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\696e3519\\066b4db5\\commons-lang3-3.5.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\7dda2d0d\\66b22663\\cinnamon-java-2.13.1.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\b7a5b909\\ef2d75a7\\cinnamon-scala_2.13-2.13.1.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\3622e1de\\13510806\\cinnamon-core-java-2.13.1.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\dc0ec680\\c140e4ce\\simpleclient-0.8.0.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\cb9f0cce\\14d77992\\HdrHistogram-2.1.12.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\b94f132d\\1b96c5e6\\simpleclient_httpserver-0.8.0.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\675c22e7\\d41b67d1\\cinnamon-core_2.13-2.13.1.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\1cfc9e13\\12e79a06\\cinnamon-common-2.13.1.jar;C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\sbt_43cf4934\\target\\ed9ea58c\\9f77b5f0\\simpleclient_common-0.8.0.jar;C:\\Users\\mtselikina\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo.lightbend.com\\pass\\cW7W46EuBMGYr-H2u3mb8gSR8PflQaHcp5zBa2SZqC5TYKv6\\commercial-releases\\com\\lightbend\\cinnamon\\cinnamon-agent\\2.13.1\\cinnamon-agent-2.13.1.jar",
+            "version" : "52.0"
+        },
+        "endorsed" : {
+            "dirs" : "C:\\Program Files\\Java\\jdk1.8.0_261\\jre\\lib\\endorsed"
+        },
+        "ext" : {
+            "dirs" : "C:\\Program Files\\Java\\jdk1.8.0_261\\jre\\lib\\ext;C:\\WINDOWS\\Sun\\Java\\lib\\ext"
+        },
+        "home" : "C:\\Program Files\\Java\\jdk1.8.0_261\\jre",
+        "io" : {
+            "tmpdir" : "C:\\Users\\MTSELI~1\\AppData\\Local\\Temp\\"
+        },
+        "library" : {
+            "path" : "C:\\Program Files\\Java\\jdk1.8.0_261\\jre\\bin;C:\\WINDOWS\\Sun\\Java\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;%JAVA_HOME%\\bin;C:\\Program Files\\sbt-1.3.13\\sbt\\bin;;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\mtselikina\\AppData\\Scripts\\;C:\\Users\\mtselikina\\AppData\\;C:\\Users\\mtselikina\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\mtselikina\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Java\\jdk-14.0.2\\bin;C:\\Program Files (x86)\\sbt\\bin;C:\\Program Files\\heroku\\bin;."
+        },
+        "runtime" : {
+            "name" : "Java(TM) SE Runtime Environment",
+            "version" : "1.8.0_261-b12"
+        },
+        "specification" : {
+            "name" : "Java Platform API Specification",
+            "vendor" : "Oracle Corporation",
+            "version" : "1.8"
+        },
+        "vendor" : {
+            "url" : {
+                "bug" : "http://bugreport.sun.com/bugreport/"
+            }
+        },
+        "version" : "1.8.0_261",
+        "vm" : {
+            "info" : "mixed mode",
+            "name" : "Java HotSpot(TM) 64-Bit Server VM",
+            "specification" : {
+                "name" : "Java Virtual Machine Specification",
+                "vendor" : "Oracle Corporation",
+                "version" : "1.8"
+            },
+            "vendor" : "Oracle Corporation",
+            "version" : "25.261-b12"
+        }
+    },
+    "line" : {
+        "separator" : "\r\n"
+    },
+    "os" : {
+        "arch" : "amd64",
+        "name" : "Windows 10",
+        "version" : "10.0"
+    },
+    "path" : {
+        "separator" : ";"
+    },
+    "sun" : {
+        "arch" : {
+            "data" : {
+                "model" : "64"
+            }
+        },
+        "boot" : {
+            "class" : {
+                "path" : "C:\\Program Files\\Java\\jdk1.8.0_261\\jre\\lib\\resources.jar;C:\\Program Files\\Java\\jdk1.8.0_261\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.8.0_261\\jre\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jdk1.8.0_261\\jre\\lib\\jsse.jar;C:\\Program Files\\Java\\jdk1.8.0_261\\jre\\lib\\jce.jar;C:\\Program Files\\Java\\jdk1.8.0_261\\jre\\lib\\charsets.jar;C:\\Program Files\\Java\\jdk1.8.0_261\\jre\\lib\\jfr.jar;C:\\Program Files\\Java\\jdk1.8.0_261\\jre\\classes"
+            },
+            "library" : {
+                "path" : "C:\\Program Files\\Java\\jdk1.8.0_261\\jre\\bin"
+            }
+        },
+        "cpu" : {
+            "endian" : "little",
+            "isalist" : "amd64"
+        },
+        "desktop" : "windows",
+        "io" : {
+            "unicode" : {
+                "encoding" : "UnicodeLittle"
+            }
+        },
+        "java" : {
+            "command" : "com.lightbend.training.coffeehouse.CoffeeHouseApp",
+            "launcher" : "SUN_STANDARD"
+        },
+        "jnu" : {
+            "encoding" : "Cp1251"
+        },
+        "management" : {
+            "compiler" : "HotSpot 64-Bit Tiered Compilers"
+        },
+        "os" : {
+            "patch" : {
+                "level" : ""
+            }
+        }
+    },
+    "user" : {
+        "country" : "RU",
+        "language" : "ru",
+        "script" : "",
+        "timezone" : "Europe/Moscow",
+        "variant" : ""
+    }
+}
+}
+
